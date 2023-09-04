@@ -1,4 +1,5 @@
-#GÖREV 1
+#GÖREV 1 Verilen değerlerin veri yapılarını inceleyiniz
+
 x=8
 print(type(x))
 y=3.2
@@ -6,14 +7,14 @@ print(type(y))
 z=4j+10
 print(type(z))
 
-#Görev 2
+#Görev 2 Verilen string ifadenin tüm harflerini büyük harfe çeviriniz. Virgül ve nokta yerine space koyunuz, kelime kelime ayırınız
 
 text="The goal is to  turn data into information,and information into insight"
 for i in text:
     text.upper().split( )
 print(text.upper().split())
 
-#Görev 3
+#Görev 3 Verilen listeye aşağıdaki adımları uygulayınız.
 text=["D","A","T","A","S","C","I","E","C","E"]
 print(len(text)) #Adım 1: Verilen listenin eleman sayısına bakınız
 print(text[0])  #Adım 2: Sıfırıncı  indeksteki elemanları çağırınız.
@@ -26,7 +27,7 @@ print(text) # Adım 5: Yeni bir eleman ekleyiniz.
 text.insert(8,"N")
 print(text) # Adım 6: Sekizinci indekse "N" elemanını tekrar ekleyiniz.
 
-#Görev 4
+#Görev 4 Verilen sözlük yapısına aşağıdaki adımları uygulayınız
 
 dict={"Christian":["America",18],
       "Daisy":["England",12],
